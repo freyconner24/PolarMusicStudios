@@ -47,7 +47,7 @@ foreach ($youtubeVidJson->items as $item) {
     <div class="row video-row">
 		<div class="col-sm-7 video-cont-L">
 			<div class="video">
-				<iframe class="center-block" src="http://www.youtube.com/embed/<?php echo $videoId;?>" frameborder="0" allowfullscreen></iframe>
+				<iframe class="center-block" src="https://www.youtube.com/embed/<?php echo $videoId;?>" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="col-sm-5 crimson-b box-R box">
@@ -62,7 +62,7 @@ foreach ($youtubeVidJson->items as $item) {
 		</div>
 		<div class="col-sm-7 video-cont-R">
 			<div class="video">
-				<iframe class="center-block" src="http://www.youtube.com/embed/<?php echo $videoId;?>" frameborder="0" allowfullscreen></iframe>
+				<iframe class="center-block" src="https://www.youtube.com/embed/<?php echo $videoId;?>" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
@@ -71,7 +71,7 @@ foreach ($youtubeVidJson->items as $item) {
 	<div class="row video-row">
 		<div class="col-sm-7 video-cont-L">
 			<div class="video">
-				<iframe class="center-block" src="http://www.youtube.com/embed/<?php echo $videoId;?>" frameborder="0" allowfullscreen></iframe>
+				<iframe class="center-block" src="https://www.youtube.com/embed/<?php echo $videoId;?>" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="col-sm-5 gray-7-b box-R box">
@@ -86,7 +86,7 @@ foreach ($youtubeVidJson->items as $item) {
 		</div>
 		<div class="col-sm-7 video-cont-R">
 			<div class="video">
-				<iframe class="center-block" src="http://www.youtube.com/embed/<?php echo $videoId;?>" frameborder="0" allowfullscreen></iframe>
+				<iframe class="center-block" src="https://www.youtube.com/embed/<?php echo $videoId;?>" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
@@ -115,10 +115,4 @@ foreach ($youtubeVidJson->items as $item) {
 
 </body>
 </html>
-
-
-
-
-
-
 

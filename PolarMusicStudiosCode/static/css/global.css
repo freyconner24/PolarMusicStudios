@@ -1,0 +1,59 @@
+/**/
+
+html {padding: 0; margin: 0;}
+body {padding: 0; margin: 0;}
+.row {padding: 0; margin: 0;}
+.col-sm-6, .col-sm-5, .col-sm-7, .col-sm-3, .col-sm-4, .col-xs-6 {padding: 0;}
+
+/* ------------------ COLORS ------------------ */
+.crimson-b { background-color: #7d0d19;}
+.cream-b { background-color: #e2d29c;}
+
+.blue-b { background-color: #5b98b9;}
+.light-blue-b { background-color: #b6d3dd;}
+.dark-blue-b { background-color: #3e5467;}
+
+.gray-4-b { background-color: #444444;}
+.gray-7-b { background-color: #777777;}
+
+.crimson { color: #7d0d19;}
+.cream { color: #e2d29c;}
+
+.blue { color: #5b98b9;}
+.light-blue { color: #b6d3dd;}
+.dark-blue { color: #3e5467;}
+
+.gray-4 { color: #444444;}
+.gray-7 { color: #777777;}
+
+.white { color: white; }
+.white-b { background-color: white; }
+
+.tan {background-color: #f7f3eb;}
+
+/* ------------------ FONTS ------------------ */
+.pacifico { font-family: 'Pacifico', cursive; }
+.open-sans { font-family: 'Open Sans', sans-serif; }
+.montserrat { font-family: 'Montserrat', sans-serif; font-weight: 400;}
+.montserrat-bold { font-family: 'Montserrat', sans-serif; font-weight: 700;}
+
+/* ------------------ CENTER ------------------ */
+.text-center { text-align: center; }
+.center-block { display: block; margin-right: auto; margin-left: auto; }
+.text-vert { position: relative; top: 50%; -webkit-transform: translateY(-50%);}
+
+/* ------------------ FLOAT ------------------ */
+ .floatL {float: left;}
+ .floatR {float: right;}
+
+ /* ------------------ BOTTOM ------------------ */
+.bottom-block {}
+
+.bottom-block .block-text {
+	font-size: 3.0em;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+

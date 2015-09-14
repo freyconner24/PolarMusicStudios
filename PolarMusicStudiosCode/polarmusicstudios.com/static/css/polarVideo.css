@@ -1,0 +1,34 @@
+.box {margin-bottom: 2px;}
+
+.video iframe {width: 100%;}
+.video .videothumb {width: 100%;}
+.video .vid-img {width: 100%;}
+
+.box-R {
+	margin-left: 2px;
+	margin-right: -2px;
+}
+
+.box .text { 
+	font-size: 2em;
+	padding: 0 3%;
+}
+
+.video-cont-R {
+	min-height: 50px;
+	margin-left: 2px;
+	margin-right: -2px;
+}
+
+#thanks {
+	background-color: #333;
+}
+
+@media (max-width: 767px) {
+
+	.video {margin-bottom: 2px;}
+	.box {margin-left: 0; margin-right: 0; display: none;}
+	.video-cont-R, .video-cont-L {margin-left: 0; margin-right: 0;}
+} 
+
+

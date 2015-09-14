@@ -1,0 +1,126 @@
+#kyle {
+	min-height: 50px;
+	background-image: url(../images/kyle-1.jpg);
+	background-size: 100px;
+}
+
+#kyle-cont .text {
+	position: absolute;
+	display: none;
+	color: #444;
+	font-size: 2em;
+	left: 50%; 
+	-webkit-transform: translateX(-50%);
+	margin-top: -20px;
+}
+
+#kyle-cont:hover #kyle {
+	opacity: 0.4;
+}
+
+#kyle-cont:hover .text {
+	opacity: 1;
+	display: block;
+}
+
+#logo {
+	height: 100px;
+	margin-left: 2px;
+	margin-right: -2px;
+}
+
+#logo img { padding: 0 14%; }
+
+#logo .text { 
+	position: absolute;
+	bottom: 0;
+	font-size: 1.05em;
+	left: 50%; -webkit-transform: translateX(-50%);
+	padding-bottom: 10px;
+}
+
+#logo a {color: #7d0d19; font-size: 1.3em;}
+#logo a:hover {color: #777777;}
+
+#kyle-logo {margin-bottom: 2px;}
+
+#tri-pics { margin-bottom: 2px; padding-bottom: 35px;}
+
+#tri-pics .icon {
+	padding: 12%;
+	padding-bottom: 5%;
+}
+
+#tri-pics .text {
+	font-size: 1.7em;
+}
+
+#tri-pics .desc {
+	font-size: 1.1em;
+	padding: 0 4%;
+}
+
+#quality-shani {margin-bottom: 2px;}
+
+#quality {
+	height: 100px;
+}
+
+#quality img {padding: 0 15px;}
+
+#shani-cont .text {
+	position: absolute;
+	display: none;
+	color: #444;
+	font-size: 2em;
+	left: 50%; 
+	-webkit-transform: translateX(-50%);
+	margin-top: -20px;
+}
+
+#shani {
+	min-height: 50px;
+	background-image: url(../images/shani-1.jpg);
+	background-size: 100px;
+	margin-left: 2px;
+	margin-right: -2px;
+}
+
+#shani-cont:hover #shani {
+	opacity: 0.4;
+}
+
+#shani-cont:hover .text {
+	opacity: 1;
+	display: block;
+}
+
+#social {padding: 20px 0;}
+
+#social .text {
+	font-size: 1.7em;
+}
+
+#social .icon {
+	padding: 10%;
+}
+
+.social-border {border-right: 1px solid white;}
+
+#make-music .text {
+	font-size: 2.5em;
+	padding: 42px 0;
+}
+
+@media (max-width: 767px) {
+
+	#kyle-cont {margin-bottom: 2px;}
+	#logo {margin-left: 0;}
+
+	#quality {margin-bottom: 2px;}
+	#shani {margin-left: 0;}
+
+	#social .social-border {border: 0 solid white; padding-bottom: 30px; border-bottom: 2px solid white;}
+
+} 
+

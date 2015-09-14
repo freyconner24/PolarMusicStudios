@@ -1,0 +1,108 @@
+#polar-nora {
+	font-size: 1.9em;
+	margin-bottom: 2px;
+}
+
+#polar {
+	height: 66px;
+	padding-left: 15px;
+}
+
+#my-polygon {
+	fill:#7d0d19;
+}
+
+#polar:hover {background-color: #a8222f;}
+
+#nora {
+	height: 66px;
+	padding-right: 15px;
+}
+
+#nora .text {float: right;}
+
+#nora:hover {background-color: #b6d3dd;}
+
+#menu {
+	height: 44px;
+	margin-bottom: 2px;
+}
+
+#menu ul {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+#menu ul li {
+	list-style-type: none;
+	float: left;
+	margin-left: 15px;
+	padding-top: 13px;
+	padding-right: 19px;
+	padding-left: 19px;
+	padding-bottom: 11px;
+	-webkit-transition:background-color 0.15s linear;
+}
+
+#menu ul li:hover {
+	background-color: #7d0d19;
+	height: 44px;
+}
+
+#triangle {
+	display: inline-block;
+}
+
+.contact {cursor: pointer;}
+
+#collapse-button {
+	display: none; 
+	height: 36px; width: 36px; 
+	background-color: #444;
+	border-radius: 4px;
+	border: 1px solid #777;
+	margin-top: 4px; margin-left: 30px;
+
+}
+
+#collapse-button:hover {
+	background-color: #777;
+}
+
+#collapse-button .row-bar {
+	width: 90%;
+	height: 2px;
+	background: black;
+	margin-bottom: 10px;
+	top: 10px;
+}
+
+#collapse-menu {
+	display: none;
+	margin-bottom: 2px;
+}
+
+#collapse-menu .row {
+	-webkit-transition:background-color 0.15s linear;
+}
+
+@media (max-width: 767px) {
+	#triangle {display: none;}
+	#polar, #nora {padding: 0; margin: 0;}
+	#polar .text {text-align: center;}
+	#nora .text {text-align: center; margin-right: 50%; margin-top: -16px; -webkit-transform: translateX(50%);}
+	#menu ul {display: none;}
+	#collapse-button {display: block;}
+	#collapse-menu .row {padding: 15px 30px;}
+	#collapse-menu .row:hover {
+		background-color: #7d0d19;
+	}
+} 
+
+@media (max-width: 480px) {
+	#polar-nora {font-size: 1.2em;}
+	#polar .text {padding-top: 0;}
+	#nora .text {padding-top: 5px;}
+}
+

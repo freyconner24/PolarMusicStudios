@@ -1,0 +1,21 @@
+.pic {
+	height: 200px;
+	background-position: center;
+	background-size: 100px 100px;
+}
+
+.pics-row {padding-right: 2px; padding-left: 4px; padding-top: 2px;}
+
+#pic-1 {margin-right: 2px; margin-left: -2px;}
+
+#pic-1 {background: url(../images/about/about-1.jpg); background-size: 110% auto; background-position: center;}
+#pic-2 {background: url(../images/about/about-2.jpg); background-size: 110% auto; background-position: center;}
+#pic-3 {background: url(../images/about/about-1.jpg); background-size: 110% auto; background-position: center;}
+#pic-4 {background: url(../images/about/about-2.jpg); background-size: 110% auto; background-position: center;}
+
+@media (max-width: 800px) {
+	.container {
+		width: 100%;
+		padding: 0;
+	}
+}
